@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+
+  text-align: center;
+}
+#user-area {
+  max-width: 500px;
+  margin: auto;
+}
+#user-area,
+.user-choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user-area > div,
+#user-area > span {
+  padding: 10px;
+  margin: 10px;
+}
+.user-board {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 150px;
+  font-style: italic;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+img {
+  height: 20%;
+  width: 20%;
+}
+.play-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.user-choice-paper > img,
+.user-choice-scissor > img,
+.user-choice-rock > img,
+.computer-choice > img {
+  height: 50px;
+  width: 50px;
+}
+.user-board {
+  width: 500px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.game-result {
+  font-size: 25px;
+  font-weight: 700;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock, paper, scissors!</h1>
+    <h2>Round: <span class="round-number">1</span></h2>
+    <div id="user-area">
+      <div class="user-container">
+        <div class="user-board">
+          <h3>Player 1</h3>
+          <div class="user-choices">
+            <button class="user-choice-paper">
+              <img src="./assets/paper.png" />
+            </button>
+            <button class="user-choice-scissor">
+              <img class="user-choice-scissor" src="./assets/scissor.png" />
+            </button>
+            <button class="user-choice-rock">
+              <img class="user-choice-rock" src="./assets/rock.png" />
+            </button>
+          </div>
+          <p>Your choice: <span class="user-choice-text"></span></p>
+        </div>
+        <h4 class="user-score">0</h4>
+      </div>
+      <div class="play-area">
+        <span class="game-result"></span>
+      </div>
+      <div class="user-container">
+        <div class="user-board">
+          <h3>Computer</h3>
+          <div class="computer-choice"></div>
+          <p>PC selected: <span class="computer-choice-text"></span></p>
+        </div>
+        <h4 class="computer-score">0</h4>
+      </div>
+    </div>
+    <button class="game-reset">Reset</button>
+  </body>
+  <script src="./rps.js"></script>
+</html>
